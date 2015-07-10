@@ -1,2 +1,15 @@
-<h1>StaticPages#galeria</h1>
-<p>Find me in app/views/static_pages/galeria.html.erb</p>
+<%provide(:title, "Galeria")%>
+<!DOCTYPE>
+<html>
+    <head>
+        <title><%=yield(:title)%> | Agroturystyka Radolinek 39</title>
+    </head>
+    <body>   
+        <h1>Galeria</h1>
+        <p>
+        Zdjęcia okolicy i nietylko...
+        </p>
+    </body>
+</html>
+
+

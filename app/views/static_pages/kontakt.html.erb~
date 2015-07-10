@@ -1,2 +1,21 @@
-<h1>StaticPages#kontakt</h1>
-<p>Find me in app/views/static_pages/kontakt.html.erb</p>
+<%provide(:title, "Kontakt")%>
+<!DOCTYPE>
+<html>
+    <head>
+        <title><%=yield(:title)%> | Agroturystyka Radolinek 39</title>
+    </head>
+    <body>
+        <h1>Kontakt</h1>
+        <p>
+        Skontaktuj się z nami:
+        telefon:
+        mail:
+        adres:
+        </p>
+    </body>
+</html>
+
+
+
+
+
