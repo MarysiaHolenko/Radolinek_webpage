@@ -1,0 +1,20 @@
+<%provide(:title, "Atrakcje")%>
+<!DOCTYPE>
+<html>
+    <head> 
+        <title><%=yield(:title)%> | Agroturystyka Radolinek 39</title>
+    </head>
+    <body>
+    <h1>Atrakcje w okolicy Radolinka</h1>
+        <p>
+            Las
+            Grzyby
+            Rzeka
+            Spokój
+        </p>
+    </body>
+</html>
+
+
+
+

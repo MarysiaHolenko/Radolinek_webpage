@@ -1,0 +1,13 @@
+<%provide(:title, "Home")%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%=yield(:title)%> | Agroturystyka Radolinek 39</title>
+    </head>
+    <body>
+        <h1>Radolinek 39</h1>
+        <p>
+        Witajcie w agroturystyce Radolinek 39! 
+        </p>
+    </body>
+</html> 
