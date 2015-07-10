@@ -28,7 +28,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   test "should get galeria" do
     get :galeria
     assert_response :success
-    assert_select "Galeria", "Home | Agroturystyka Radolinek 39"
+    assert_select "title", "Galeria | Agroturystyka Radolinek 39"
   end
 
 end
